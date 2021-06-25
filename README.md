@@ -14,11 +14,15 @@
 </ul>
 </div>
 
+<br>
+
 > <h2> Projeto ✨</h2>
 
 <div class='info-project'>
 Letmeask é um projeto com o intuito de ajudar na organização de Q&A com a criação de salas privadas disponíveis ao seu público .
 </div>
+
+<br>
 
 > <h2>Executando o projeto 🚀</h2>
 
@@ -30,6 +34,8 @@ Letmeask é um projeto com o intuito de ajudar na organização de Q&A com a cri
     <li> Inicie o projeto com <code>yarn start</code>
     </ol>
 </div>
+
+<br>
 
 > <h3> Considerações finais</h3>
 
