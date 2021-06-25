@@ -3,6 +3,10 @@
 
 <img src='./src/assets/images/Capa.svg'>
 
+<br>
+
+<br>
+
 <hr>
 
 > <h2> Tecnologias 🔥</h2>
