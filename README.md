@@ -1,10 +1,6 @@
-<div class='logo'>
-<img src='./src/assets/images/logo.svg'>
-</div>
 
-<div>
-<img src='./src/assets/images/capa.svg'>
-</div>
+<img src='./src/assets/images/logo.svg'>
+
 
 <hr>
 
@@ -12,9 +8,9 @@
 
 <div class='techs'>
 <ul>
-    <li><a href='https://pt-br.reactjs.org/'>React<img src='./src/assets/png/react.png' class='icons'></a></li>
-    <li><a href='https://www.typescriptlang.org/'>Typescript<img src='./src/assets/images/typescript.svg' class='icons'></a></li>
-    <li><a href='https://firebase.google.com/?hl=pt'>Firebase<img src='./src/assets/png/firebase.png' class='icons'></a></li>
+    <li><a href='https://pt-br.reactjs.org/'>React</a></li>
+    <li><a href='https://www.typescriptlang.org/'>Typescript</a></li>
+    <li><a href='https://firebase.google.com/?hl=pt'>Firebase</a></li>
 </ul>
 </div>
 
@@ -42,21 +38,3 @@ Letmeask é um projeto com o intuito de ajudar na organização de Q&A com a cri
     <p>Por fim caso queira testar antes de instalar em sua máquina o projeto está hospedado em <a href='https://letmeask-843c4.web.app/'>https://letmeask-843c4.web.app/ </a>
 </div>
 
-<style> 
-
-.logo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 32px
-}
-
-.icons{
-    max-width: 16px;
-    margin-left: 5px;
-}
-
-div{
-    margin-bottom: 40px
-}
-
-</style>
