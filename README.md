@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+<div class='logo'>
+<img src='./src/assets/images/logo.svg'>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+<img src='./src/assets/images/capa.svg'>
+</div>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+> <h2> Tecnologias 🔥</h2>
 
-### `yarn start`
+<div class='techs'>
+<ul>
+    <li><a href='https://pt-br.reactjs.org/'>React<img src='./src/assets/png/react.png' class='icons'></a></li>
+    <li><a href='https://www.typescriptlang.org/'>Typescript<img src='./src/assets/images/typescript.svg' class='icons'></a></li>
+    <li><a href='https://firebase.google.com/?hl=pt'>Firebase<img src='./src/assets/png/firebase.png' class='icons'></a></li>
+</ul>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> <h2> Projeto ✨</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div class='info-project'>
+Letmeask é um projeto com o intuito de ajudar na organização de Q&A com a criação de salas privadas disponíveis ao seu público .
+</div>
 
-### `yarn test`
+> <h2>Executando o projeto 🚀</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div class='exec-project'>
+    <ol>
+    <li> Clone o repositório </l1>
+    <li> Instale o <a href='https://yarnpkg.com/'><code>yarn</code></a>
+    <li> Instale as dependências também com <a href='https://yarnpkg.com/'><code>yarn</code></a>
+    <li> Inicie o projeto com <code>yarn start</code>
+    </ol>
+</div>
 
-### `yarn build`
+> <h3> Considerações finais</h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div>
+    <p>Feito com muito amor junto da equipe da <a href='https://rocketseat.com.br/'>Rocket</a> ❤️</p>
+    <p>Por fim caso queira testar antes de instalar em sua máquina o projeto está hospedado em <a href='https://letmeask-843c4.web.app/'>https://letmeask-843c4.web.app/ </a>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<style> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px
+}
 
-### `yarn eject`
+.icons{
+    max-width: 16px;
+    margin-left: 5px;
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+div{
+    margin-bottom: 40px
+}
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+</style>
