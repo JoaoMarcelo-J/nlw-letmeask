@@ -1,5 +1,6 @@
-
+<p align="center">
 <img src='./src/assets/images/logo.svg'>
+</p>
 
 <img src='./src/assets/images/Capa.svg'>
 
