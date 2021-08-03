@@ -25,7 +25,7 @@
 > <h2> Projeto ✨</h2>
 
 <div class='info-project'>
-Letmeask é um projeto com o intuito de ajudar na organização de Q&A com a criação de salas privadas disponíveis ao seu público .
+Letmeask é um projeto com o intuito de  ajudar na organização de Q&A com a criação de salas privadas disponíveis ao seu público .
 </div>
 
 <br>
