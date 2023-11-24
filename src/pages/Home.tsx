@@ -3,6 +3,7 @@ import { FormEvent, useState } from "react";
 
 import illustrationImg from "../assets/images/illustration.svg";
 import logoImg from "../assets/images/logo.svg";
+import logo from "../assets/png/logo.png";
 import googleIconImg from "../assets/images/google-icon.svg";
 
 import { database } from "../services/firebase";
@@ -60,7 +61,11 @@ export function Home() {
       </aside>
       <main>
         <div className="main-content">
-          <img src={logoImg} alt="Letmeask" />
+          <img
+            style={{ width: 250, marginBottom: "-60px" }}
+            src={logo}
+            alt="Letmeask"
+          />
           <button onClick={handleCreateRoom} className="create-room">
             <img src={googleIconImg} alt="Logo do Google"></img>
             Crie sua sala com o Google
@@ -68,6 +73,7 @@ export function Home() {
           <div className="separator">ou entre em uma sala</div>
           <form onSubmit={handleJoinRooom}>
             <input
+              style={{ marginTop: 10 }}
               type="text"
               placeholder="Digite o código da sala"
               onChange={(event) => setRoomCode(event.target.value)}

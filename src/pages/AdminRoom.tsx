@@ -13,6 +13,7 @@ import { Question } from "../components/Question";
 import { useRoom } from "../hooks/useRoom";
 import "../styles/room.scss";
 import { database } from "../services/firebase";
+import logo from "../assets/png/logo.png";
 
 type RoomParams = {
   id: string;
@@ -56,7 +57,11 @@ export function AdminRoom() {
     <div id="page-room">
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
+          <img
+            src={logoImg}
+            style={{ width: 120, height: 120 }}
+            alt="Letmeask"
+          />
           <div>
             <RoomCode code={roomId} />
             <Button isOutlined onClick={handleEndRoom}>

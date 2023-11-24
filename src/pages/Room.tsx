@@ -8,6 +8,7 @@ import { useAuth } from "../hooks/useAuth";
 import { Question } from "../components/Question";
 import { database } from "../services/firebase";
 import { useRoom } from "../hooks/useRoom";
+import logo from "../assets/png/logo.png";
 import "../styles/room.scss";
 
 type RoomParams = {
@@ -66,7 +67,7 @@ export function Room() {
     <div id="page-room">
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
+          <img src={logo} style={{ width: 120, height: 120 }} alt="Letmeask" />
           <RoomCode code={roomId} />
         </div>
       </header>
@@ -91,9 +92,7 @@ export function Room() {
                 <span>{user.name}</span>
               </div>
             ) : (
-              <span>
-                Para enviar uma pergunta, <button>faça seu login</button>
-              </span>
+              <span></span>
             )}
             <Button type="submit" disabled={!user}>
               Enviar pergunta
